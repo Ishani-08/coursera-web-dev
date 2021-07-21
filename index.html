@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <title>Solution 2</title>
+    <meta charset="utf-8">
+</head>
+<style>
+	body{
+		background-color: blue;
+	}
+
+	*{
+		box-sizing: border-box;
+	}
+	p{
+		border: 1px solid black;
+		background-color: #A52A2A;
+        width:100%;
+        height: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        color:white;
+        overflow-y: auto;
+       
+	}
+
+	#chicken{
+		background-color: green;
+		float:right;
+		colour:white;
+		border:1px solid black
+	}
+
+	}
+
+	.row{
+		width:100%;
+	}
+
+	@media(min-width: 992px){
+		.col-lg-1, .col-lg-2, .col-lg-3;{
+			float: left;
+			border: 1px solid black;
+
+			}
+			.col-lg-1{
+				width:33.33%;
+			}
+			.col-lg-2{
+				width:50%;
+			}
+			.col-lg-3{
+				width:100%;
+			}
+
+		}
+		
+	}
+
+	@media(min-width: 768px) and (max-width: 991px){
+		.col-md-1, .col-md-2, .col-md-3;{
+			float: left;
+			border: 1px solid black;
+
+			}
+			.col-md-1{
+				width:33.33%;
+			}
+			.col-md-2{
+				width:50%;
+			}
+			.col-md-3{
+				width:100%;
+			}
+
+		}
+		
+	}
+	@media(max-width: 767px){
+		.col-sm-1, .col-sm-2, .col-sm-3;{
+			float: left;
+			border: 1px solid black;
+
+			}
+			.col-sm-1{
+				width:33.33%;
+			}
+			.col-sm-2{
+				width:50%;
+			}
+			.col-sm-3{
+				width:100%;
+			}
+
+		}
+		
+	}
+
+
+
+
+
+</style>
+<body>
+	<h1><center>Box Model</center></h1>
+
+	<div class="row">
+		<div  class="col-lg-1 col-md-2 col-sm-3" id="chicken"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus lorem non tellus malesuada mattis. Suspendisse a blandit risus. Donec quis venenatis augue. Aliquam cursus imperdiet augue, non rhoncus orci malesuada eu. Integer sit amet ultricies augue, eget interdum nunc. Suspendisse interdum odio sed sapien rutrum, ut ullamcorper mi commodo. Morbi iaculis feugiat fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ultrices mi.</p> </div>
+		
+		<div class="col-lg-1 col-md-2 col-sm-3"><p>In ornare tellus libero, et pellentesque risus vulputate nec. In hac habitasse platea dictumst. Suspendisse pharetra consequat elit, id efficitur libero sagittis vitae. Praesent sed ante vel leo volutpat feugiat ac a ex. Morbi posuere est elit, sit amet dapibus arcu posuere non. Aliquam quis blandit dui, eu volutpat mauris. Sed ac augue posuere, elementum erat et, scelerisque metus. Duis lacinia hendrerit nisi. Maecenas justo arcu, suscipit eu blandit quis, auctor et metus. Maecenas sodales tempus metus, sed mattis ligula auctor non.</p></div>
+
+		<div class="col-lg-1 col-md-2 col-sm-3"><p>Quisque suscipit, purus ut venenatis consequat, turpis nisi ullamcorper odio, ac scelerisque nunc tortor non nisi. Praesent porta fringilla vehicula. Vivamus in euismod magna, eu eleifend orci. Sed suscipit tortor vel quam posuere, non molestie tellus molestie. Donec id aliquam ante. Vivamus rutrum eget dolor quis rutrum. Nulla accumsan, lorem vel imperdiet molestie, felis tellus rutrum nisl, quis ultrices lorem justo vitae nibh. Suspendisse non gravida nunc. Maecenas convallis leo ut luctus gravida. Nullam at felis ex. Aenean justo nisl, congue eu volutpat non, euismod vel ex. Nunc sed neque laoreet, blandit libero lacinia, luctus risus.</p></div>
+	</div>
+    
+</body>
+</html>
